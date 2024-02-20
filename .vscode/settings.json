@@ -1,0 +1,6 @@
+{
+    "html.hover.references": false,
+    "prettier.tabWidth": 4,
+    "CodeGPT.apiKey": "CodeGPT Plus Beta",
+    "liveServer.settings.port": 5501
+}

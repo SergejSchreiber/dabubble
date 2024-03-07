@@ -2,7 +2,7 @@
     border-radius: 30px;
     background:#FFFFFF;
     box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.08);
-    height: clamp(31.25rem, 28.5714rem + 13.3929vw, 50rem);
+    // height: clamp(31.25rem, 28.5714rem + 13.3929vw, 50rem);
     width: clamp(17.5rem, 12.8571rem + 23.2143vw, 50rem);
     position: absolute;
     top: 50%;
@@ -303,7 +303,7 @@
 
 @media (max-height: 896px) {
     .login {
-        height: 454px;
+        // height: 454px;
         .reset-password {
             margin-top: 0;
         }

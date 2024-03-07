@@ -116,6 +116,7 @@ export class LoginComponent {
                 this.authService.setSession(uid);
                 this.chatService.createChatsForGuest(uid);
                 this.router.navigate(['/main', uid]);                
+                window.alert('Gast login kann keine Nachrichten oder Channels erstellen')
             }
         } catch (error: any) {
           /*   this.handleAuthError(error); */
